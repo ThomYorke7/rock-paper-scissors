@@ -68,8 +68,8 @@ function playRound(e) {
             scoreTracker();
         } else {
             ++playerScore.innerHTML;
-            scoreTracker();
             gameBanner.textContent = "You win! Scissors beats Paper."
+            scoreTracker();
         }
     }
 }
